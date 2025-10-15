@@ -1,2 +1,2 @@
 # Perfume-Website-eProject
-this project is for final semister eproject
+this project is for first semister eproject
