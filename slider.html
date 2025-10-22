@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Slider</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider-track" id="sliderTrack">
+            <div class="slide">
+                <img src= "image.jpg" alt="Perfume Bottle 1">
+                <div class="perfume-info">
+                    <h3>"Elegance" by Aroma Co.</h3>
+                    <p>A sophisticated blend of jasmine and sandalwood.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./image 2.jpg" alt="Signature Perfume Bottle 2">
+                <div class="perfume-info">
+                    <h3>"Midnight Bloom"</h3>
+                    <p>Dark, mysterious, with notes of vanilla and musk.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image 3.jpg" alt="Fresh Perfume Bottle 3">
+                <div class="perfume-info">
+                    <h3>"Ocean Breeze"</h3>
+                    <p>Light and fresh, with a hint of citrus and sea salt.</p>
+                </div>
+            </div>
+            
+            </div>
+
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script> </body>
+</html>
