@@ -1,239 +1,28 @@
-/* ========== GLOBAL STYLES ========== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+ nav {
+    background-color: lightcoral;
 }
 
 body {
-  background-color: #20ba08;
-  color: purple;
-  line-height: 1.6;
+    background-color: lightcyan;
+    border: 5px solid lightslategray;
 }
+
+
 
 a {
+    color: whitesmoke;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav a  {
+  margin-left: 120px; 
   text-decoration: none;
-  color: inherit;
 }
 
-ul {
-  list-style: none;
+.search-bar{
+    margin-left: 80px;
 }
-
-/* ========== HEADER & LOGO ========== */
-header {
-  background: linear-gradient(90deg, #d95508f8, #03c0addf);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-header img.logo {
-  height: 60px;
-}
-
-header nav ul {
-  display: flex;
-  gap: 30px;
-}
-
-header nav ul li a {
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 12px;
-  transition: background 0.3s;
-}
-
-header nav ul li a:hover {
-  background: orange;
-  border-radius: 5px;
-  color: aqua;
-}
-
-/* ========== HERO SECTION ========== */
-.hero {
-  background: url('banner.jpg') center/cover no-repeat;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: crimson;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px 40px;
-  border-radius: 10px;
-}
-
-/* ========== BRAND MENU ========== */
-.brands {
-  text-align: center;
-  padding: 50px 20px;
-}
-
-.brands h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: deepskyblue;
-}
-
-.brand-buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.brand-buttons button {
-  background: darkgreen;
-  color: darkcyan;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 25px;
-  transition: 0.3s;
-}
-
-.brand-buttons button:hover {
-  background: deeppink;
-}
-
-/* ========== PRODUCT SECTION ========== */
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 50px;
-}
-
-.product-card {
-  background: silver;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-}
-
-.product-card:hover {
-  transform: translateY(-5px);
-}
-
-.product-card img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.product-card .info {
-  padding: 15px;
-}
-
-.product-card h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.product-card p {
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: teal;
-}
-
-.product-card a.download-link {
-  display: inline-block;
-  background: goldenrod;
-  color: yellowgreen;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-size: 14px;
-  transition: background 0.3s;
-}
-
-.product-card a.download-link:hover {
-  background: indigo;
-}
-
-/* ========== PRICE LIST ========== */
-.price-section {
-  text-align: center;
-  padding: 50px 20px;
-  background: red;
-}
-
-.price-section h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.price-section a {
-  background: midnightblue;
-  color: magenta;
-  padding: 12px 20px;
-  border-radius: 30px;
-  font-size: 16px;
-  display: inline-block;
-  transition: 0.3s;
-}
-
-.price-section a:hover {
-  background: blueviolet;
-}
-
-/* ========== CONTACT US ========== */
-.contact {
-  background: dodgerblue;
-  color: #d10606ad;
-  padding: 50px;
-  text-align: center;
-}
-
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.contact p {
-  margin-bottom: 15px;
-  font-size: 16px;
-}
-
-.contact a {
-  color: darkorange;
-  font-weight: 600;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
-/* ========== FOOTER ========== */
-footer {
-  background: black;
-  color: chartreuse;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 14px;
-}
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
+.basket {
+    margin-left: 40px;
 }
