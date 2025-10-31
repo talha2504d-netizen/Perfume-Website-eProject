@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    /* background-color: turquoise; */
+    color: orange;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    padding: 15px 60px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: teal;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b3005e;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7a003e;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('https://i.imgur.com/OD2Kx9m.jpg') no-repeat center center/cover;
+    color: purple;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: greenyellow;
+    color: hotpink;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: gold;
+}
+
+/* Perfume Section */
+.perfume-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.perfume-section h2 {
+    margin-bottom: 40px;
+    color: black;
+}
+
+.perfume-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 0 40px;
+}
+
+.perfume-card {
+    background-color: skyblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.perfume-card:hover {
+    transform: translateY(-5px);
+}
+
+.perfume-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.perfume-card h3 {
+    margin: 15px 0 10px;
+    color: steelblue;
+}
+
+.perfume-card p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: crimson;
+}
+
+.perfume-card button {
+    background-color: lime;
+    border: none;
+    color: orangered;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.perfume-card button:hover {
+    background-color: cyan;
+}
+
+/* Footer */
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
