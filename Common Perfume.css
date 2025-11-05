@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: silver;
+    color: cyan;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: green;
+    color: gold;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+/* Product Section */
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5%;
+    gap: 40px;
+}
+
+.product-image img {
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.product-details {
+    max-width: 450px;
+}
+
+.product-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.product-details .brand {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.product-details .description {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+.btn.buy {
+    background: #ffd700;
+    color: #000;
+}
+
+.btn.buy:hover {
+    background: #e6c200;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .product-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 280px;
+    }
+}
