@@ -7,7 +7,7 @@
 
 body {
     background: silver;
-    color: cyan;
+    color: orangered;
 }
 
 /* Header */
@@ -26,14 +26,14 @@ header .logo {
 }
 
 header nav a {
-    color: white;
+    color: lime;
     margin-left: 20px;
     text-decoration: none;
     font-size: 16px;
 }
 
 header nav a:hover {
-    color: #ffd700;
+    color: teal;
 }
 
 /* Product Section */
@@ -63,7 +63,7 @@ header nav a:hover {
 .product-details .brand {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #555;
+    color: crimson;
 }
 
 .product-details .description {
@@ -82,8 +82,8 @@ header nav a:hover {
     display: inline-block;
     padding: 12px 25px;
     border: none;
-    background: #000;
-    color: #fff;
+    background: firebrick;
+    color: yellow;
     cursor: pointer;
     margin-right: 10px;
     border-radius: 5px;
@@ -92,24 +92,24 @@ header nav a:hover {
 }
 
 .btn:hover {
-    background: #444;
+    background: darkcyan;
 }
 
 .btn.buy {
-    background: #ffd700;
-    color: #000;
+    background: deepskyblue;
+    color: deeppink;
 }
 
 .btn.buy:hover {
-    background: #e6c200;
+    background: red;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #000;
-    color: #fff;
+    background: orange;
+    color: brown;
     font-size: 14px;
 }
 
