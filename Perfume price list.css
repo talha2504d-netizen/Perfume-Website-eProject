@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #b993d6, #8ca6db);
+  color: white;
+  padding: 50px 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+.price-list {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background: #8ca6db;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background: #f1f1f1;
+  transition: 0.3s;
+}
+
+footer {
+  text-align: center;
+  background: #8ca6db;
+  color: white;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
