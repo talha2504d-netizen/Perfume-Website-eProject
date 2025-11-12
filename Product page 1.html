@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="stylesheet" href="Product page.html">
+    <link rel="stylesheet" href="Index.html">
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="Gents.html">
+    <link rel="stylesheet" href="Ladies.html">
+    <link rel="stylesheet" href="Common Perfume.html">
+    <link rel="stylesheet" href="Perfume price list.html">
+    <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #f9f9f9;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 50px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 4px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+}
+
+/* ===== Search Box ===== */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-box input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.search-box input:focus {
+  border-color: #2c3e50;
+}
+
+.search-box button {
+  padding: 6px 14px;
+  border: none;
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #1a242f;
+}
+
+    }
+</style> 
+
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Paarees Perfumes</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="Perfume price list.html">Price List</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="Search perfumes...">
+      <button>Search</button>
+    </div>
+  </nav>  
+
+<div class="container">
+
+  <!-- Top Row: Image + Info + Buttons -->
+  <div class="product-top" style="display:flex; align-items:flex-start; gap:90px; margin-top:20px;">
+    
+    <!-- Product Image -->
+    <div class="product-img">
+      <img src="Perf image/fragrances images/download (5).jpg" 
+           alt="Versace Eros" style="width:400px; height:auto;">
+    </div>
+    
+    <!-- Product Info + Buttons -->
+    <div class="product-info" style="flex:1; display:flex; flex-direction:column; gap:15px; padding-top: 28px;">
+      <h1>VERSACE EROS</h1>
+      <p><b>CATEGORY:</b> MEN</p>
+      <p><span>FREE DELIVERY</span></p>
+      <p><strong>Price:</strong> <del>$150</del> <span class="text-success fw-bold">$110</span></p>
+      <p class="text-danger fw-semibold">30% OFF</p>
+      
+      <!-- Buttons -->
+      <div style="display:flex; gap:10px;">
+        <a href="#" class="btn btn-secondary">Buy Now</a>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Below: Product Details / Lists -->
+  <div class="product-details" style="margin-top:30px;">
+    <ul>
+      <p>Versace Eros is a bold and passionate fragrance created by Gianni Versace for the modern man who is strong, confident, 
+        and loves to stand out.</p>
+      <h4></h4>
+      <li>Tonka bean, geranium, ambroxan – adds warmth and a slightly sweet, aromatic touch.</li>
+    </ul>
+
+    <ul>
+      <h4></h4>
+      <li>50ml</li>
+    </ul>
+
+    <ul>
+      <h4></h4>
+      <li>Mint, green apple, lemon – gives a fresh and vibrant opening.</li>
+      <li>Vanilla, vetiver, oakmoss, cedarwood – gives depth, sensuality, and longevity.</li>
+    </ul>
+
+    <ul>
+      <h4></h4>
+      <li>Moderate to long-lasting (about 6–8 hours).</li>
+      <li>Sillage (the scent trail) is noticeable but not overpowering.</li>
+      <li>Performs slightly differently depending on your skin and weather (especially in warm climates).</li>
+    </ul>
+  </div>
+
+  <!-- Customer Reviews Section -->
+  <div class="customer-reviews" style="margin-top:30px; border-top:1px solid #ccc; padding-top:20px;">
+    <h4>Customer Reviews</h4>
+    <p>No reviews yet. Be the first to review this product!</p>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

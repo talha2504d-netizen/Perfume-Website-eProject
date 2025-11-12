@@ -7,7 +7,7 @@
 
 body {
     /* background-color: turquoise; */
-    color: orange;
+    color: teal;
 }
 
 /* Header */
@@ -22,7 +22,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: teal;
+    color: red;
 }
 
 nav ul {
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #7a003e;
+    color: mintcream;
 }
 
 /* Hero Section */
@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .btn {
-    background-color: greenyellow;
+    background-color: lightcyan;
     color: hotpink;
     padding: 12px 25px;
     border: none;
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: gold;
+    background-color: lightgoldenrodyellow;
 }
 
 /* Perfume Section */
@@ -93,7 +93,7 @@ nav a:hover {
 }
 
 .perfume-card {
-    background-color: skyblue;
+    background-color: lightgreen;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     padding: 20px;
@@ -123,9 +123,9 @@ nav a:hover {
 }
 
 .perfume-card button {
-    background-color: lime;
+    background-color: bisque;
     border: none;
-    color: orangered;
+    color: olive;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -133,12 +133,12 @@ nav a:hover {
 }
 
 .perfume-card button:hover {
-    background-color: cyan;
+    background-color: lavenderblush;
 }
 
 /* Footer */
 footer {
-    background-color: aqua;
+    background-color: cornflowerblue;
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
